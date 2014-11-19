@@ -1,0 +1,11 @@
+{
+	"minimum-stability": "stable",
+	"require": {
+		"cocur/slugify": "0.10.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"OKLM\\StringGenerator\\": "src"
+		}
+	}
+}
