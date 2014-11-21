@@ -39,13 +39,15 @@ class PasswordGenerator
     public static function generate($limit = 10, $difficulty = self::PASSWORD_EASY)
     {
 
-    if (!is_array($letter,[
-    	self::PASSWORD_EASY,
-    	self::PASSWORD_MEDIUM,
-    	self::PASSWORD_HARD,
-    	])) {
-    		throw new Exception("Invalid letter";    		
-    	}	
+        $letter='';
+
+        if (!in_array($letter,[
+            self::PASSWORD_EASY,
+            self::PASSWORD_MEDIUM,
+            self::PASSWORD_HARD,
+            ])) {
+                throw new Exception("Invalid letter");
+            }
 
     	switch ($difficulty) {
     		case self::PASSWORD_MEDIUM:
