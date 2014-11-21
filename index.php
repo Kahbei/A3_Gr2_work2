@@ -14,4 +14,4 @@ require __DIR__.'/vendor/autoload.php';
 
 //echo \OKLM\StringGenerator\PasswordGenerator::generate(12, \OKLM\StringGenerator\PasswordGenerator::PASSWORD_MEDIUM);
 
-echo \Errastum\LatinGenerator\LoremIpsum::generateMyLatin(5);
+echo \OKLM\StringGenerator\LoremIpsum::generateMyLatin(10);

@@ -6,11 +6,11 @@
  * Time: 19:47
  */
 
-namespace Errastum\LatinGenerator;
+namespace OKLM\StringGenerator;
 
 /**
  * Class LoremIpsum
- * @param Errastum\LatinGenerator
+ * @param OKLM\StringGenerator
  */
 
 class LoremIpsum{
