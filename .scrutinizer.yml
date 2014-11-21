@@ -13,3 +13,16 @@ tools:
 filter:
     paths: [src/*]
     excluded_paths: [vendor/*, tests/*]
+
+checks:
+    php:
+        code_rating: true
+        duplication: true
+
+    python:
+        code_rating: true
+        duplicate_code: true
+
+    ruby:
+        code_rating: true
+        duplicate_code: true
