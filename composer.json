@@ -1,17 +1,17 @@
 {
-	"minimum-stability": "stable",
-	"require": {
-		"cocur/slugify": "0.10.*"
-	},
-    "require-dev":{
+    "minimum-stability": "stable",
+    "require": {
+        "cocur/slugify": "0.10.*"
+    },
+    "require-dev": {
         "phpunit/phpunit": "~4.3"
     },
-	"autoload": {
-		"psr-4": {
-			"OKLM\\StringGenerator\\": "src",
+    "autoload": {
+        "psr-4": {
+            "OKLM\\StringGenerator\\": "src",
             "Tests\\OKLM\\StringGenerator\\": "tests"
-		}
-	},
+        }
+    },
     "config": {
         "bin-dir": "bin"
     }
