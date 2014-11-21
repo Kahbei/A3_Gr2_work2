@@ -12,6 +12,6 @@ require __DIR__.'/vendor/autoload.php';
 
 //echo $slugify->slugify('Mé àré azskj dz ak azd HJVJV');
 
-//echo \OKLM\StringGenerator\PasswordGenerator::generate(12, \OKLM\StringGenerator\PasswordGenerator::PASSWORD_MEDIUM);
+echo \OKLM\StringGenerator\PasswordGenerator::generate(12, \OKLM\StringGenerator\PasswordGenerator::PASSWORD_MEDIUM);
 
 echo \OKLM\StringGenerator\LoremIpsum::generateMyLatin(10);
