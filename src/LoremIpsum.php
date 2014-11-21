@@ -18,7 +18,7 @@ class LoremIpsum{
     /**
      * @var string
      */
-    private static $Latin_Text = 'lorem ipsum, dolor sit amet consectetur adipiscing elit suspendisse arcu lectus, mattis a nibh at, rutrum auctor neque';
+    private static $Latin_Text = 'lorem. ipsum, dolor sit amet consectetur adipiscing elit suspendisse arcu lectus, mattis a nibh at, rutrum auctor neque';
 
 
     /**
@@ -38,7 +38,7 @@ class LoremIpsum{
         $resultat = '';
 
         for($i = 0 ; $i<$WordNumber ; $i++) {
-            $split = preg_split("/[\s,]+/", self::$Latin_Text);
+            $split = preg_split("/[\s,.]+/", self::$Latin_Text);
             $count = count($split)-1;
             $resultat .= $split[rand(0,$count)]." ";
         };
