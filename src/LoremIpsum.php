@@ -40,7 +40,7 @@ class LoremIpsum{
         for($i = 0 ; $i<$WordNumber ; $i++) {
             $split = preg_split("/[\s,.]+/", self::$Latin_Text);
             $count = count($split)-1;
-            $resultat .= $split[rand(0,$count)]." ";
+            $resultat .= $split[mt_rand(0,$count)]." ";
         };
 
         return $resultat;
